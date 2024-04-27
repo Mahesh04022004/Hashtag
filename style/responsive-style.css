@@ -1,0 +1,97 @@
+@media (max-width:1300px) {
+    /* navbar */
+    .header-wrapper .menu-navbar-menu{
+        width: auto;
+    }
+}
+
+@media (max-width:1230px) {
+    /* Navbar */
+    .header-wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 12px 10px !important;
+    }
+
+    .footer-css{
+        padding: 50px 100px;
+    }
+}
+
+@media (max-width:1070px) {
+    .about-wrapper .about_title{
+        font-size: 16px;
+    }
+    .footer-css{
+        padding: 30px 80px;
+    }
+}
+
+@media (max-width:991px) {
+    /* Navbar */
+    .header-wrapper .navbar-brand img{
+        width: 10rem;
+    }
+    .header-wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 13px 20px !important;
+    }
+    .header-wrapper .navbar-collapse{
+        background-color: var(--bg-white);
+    }
+
+
+    /* About */
+    .about-wrapper .about_number{
+        margin: 20px auto;
+    }
+    .about-wrapper .about_title{
+        font-size: 2rem;
+    }
+    .about-wrapper .about_text{
+        font-size: 1.4rem;
+    }
+
+    .footer-css .third-footer .icon-my{
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .footer-css .third-footer{
+        margin-top: 10px;
+    }
+    .footer-css .second-footer{
+        margin-top: 10px;
+    }
+    .footer-css .first-footer{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:767px) {
+    /* Banner */
+    .banner_wrapper .row{
+        
+        flex-direction:column-reverse ;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+    
+}
+@media (max-width:490px){
+    .free-trial .row-css .custom{
+        gap: 2%;
+    }
+}
